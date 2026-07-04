@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+body{
+    background-color: white;
+    height: auto;
+}
+ .Hap{
+    font-family: Geist, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 62px;
+font-weight: 600;
+line-height: 57.6px;
+color: rgb(26, 26, 26);
+margin-top: 75px;
+margin-left: 70px;
+ }
+.logo{
+    position: absolute;
+    right: 22px;
+    top: 50px;
+    width: 38%;
+}
+.container{
+    width: 30%;
+    /* background-color: red; */
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.con-p{
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1rem;
+}
+.con-g{
+     width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1rem;
+    border: 1px solid gainsboro;
+}
+.con-a{
+     width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1rem;
+    border: 1px solid gainsboro;
+}
+.con-g:hover {
+    background-color: rgb(237, 241, 240);
+}
+.line-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.line1{
+    width: 13.5%;
+    height: 1px;
+    background-color: #EAEAEC;
+    margin-left: 4.5rem;
+}
+.line2{
+     width: 13.5%;
+    height: 1px;
+    background-color: #EAEAEC;
+}
+.inpu{
+    width: 30%;
+    height: 60px;
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    border-radius: 8px;
+    border: 2px solid #D1D5DB;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+.con{
+    width: 30%;
+    height: 48px;
+    background-color: #D4D4D4;
+    border-radius: 25px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(120, 113, 108);
+    margin-left: 65px;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    margin-top: 20px;
+}
+.by{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+color: rgb(0, 0, 0);
+width: 30%;
+text-align: center;
+margin-left: 55px;
+margin-top: 20px;
+}
+span{
+    color: #D4D4D4;
+}
+footer{
+    height: 11vh;
+    /* background-color: black; */
+    margin-top: 3rem;
+}
+ul{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    /* gap: 10%; */
+    justify-content: space-around;
+    /* background-color: red; */
+padding-top: 2rem;
+font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+font-size: 9px;
+font-weight: 400;
+line-height: 12px;
+color: rgb(83, 100, 113);
+}
+a{
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+}
+/* ── Tablet (max 1024px) ── */
+@media (max-width: 1024px) {
+  .Hap {
+    font-size: 48px;
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+
+  .logo {
+    width: 45%;
+    top: 40px;
+    right: 15px;
+  }
+
+  .container {
+    width: 45%;
+    margin-left: 40px;
+  }
+
+  .inpu {
+    width: 45%;
+    margin-left: 40px;
+  }
+
+  .con {
+    width: 45%;
+    margin-left: 35px;
+    padding-left: 6rem;
+  }
+
+  .by {
+    width: 45%;
+    margin-left: 30px;
+  }
+
+  .line1,
+  .line2 {
+    width: 20%;
+  }
+
+  .line1 {
+    margin-left: 2.5rem;
+  }
+
+  ul {
+    width: 85%;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+/* ── Mobile (max 768px) ── */
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .Hap {
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .logo {
+    position: static;
+    width: 55px;
+    margin-top: 20px;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+    gap: 16px;
+  }
+
+  .line-div {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .line1 {
+    margin-left: 0;
+    width: 40%;
+  }
+
+  .line2 {
+    width: 40%;
+  }
+
+  .inpu {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  .con {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 16px;
+  }
+
+  .by {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  footer {
+    height: auto;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  ul {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 1rem;
+  }
+}
+
+/* ── Small Mobile (max 480px) ── */
+@media (max-width: 480px) {
+  .Hap {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .con-p,
+  .con-g,
+  .con-a {
+    font-size: 15px;
+    height: 46px;
+  }
+
+  .inpu {
+    font-size: 15px;
+    height: 52px;
+  }
+
+  .con {
+    font-size: 15px;
+    height: 46px;
+  }
+
+  .by {
+    font-size: 12px;
+  }
+
+  ul {
+    font-size: 11px;
+    gap: 7px;
+  }
+  footer{
+    list-style-position:outside;
+    padding-left: 1.5em;
+  }
+  footer li {
+    margin-right: 20px;
+    display: inline-block;
+  }
+}

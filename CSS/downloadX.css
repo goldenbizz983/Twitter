@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 15vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+}
+.logo-div{
+    display: flex;
+    gap: 7px;
+    /* background-color: white; */
+    width: 15%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.logo-h1{
+     font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+     font-size: 24px;
+     font-weight: 700;
+     color: rgb(20, 23, 26);
+}
+.sec-div{
+     /* background-color: green; */
+    width: 50%;
+    height: 8vh;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.lis{
+     display: flex;
+    gap: 5%;
+    list-style: none;
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 13.92px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(20, 23, 26);
+}
+.thi-div{
+    width: 18%;
+    /* background-color: yellow; */
+    display: flex;
+    margin-top: 3rem;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+.si{
+   width: 40%;
+   height: 50px;
+   border-radius: 25px;
+   font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+   font-size: 13.92px;
+   color: rgb(20, 23, 26);
+   border: 2px solid #E9F0F4;
+   background-color: white;
+}
+.se{
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #E9F0F4;
+    color: blue;
+    background-color: white;
+}
+.co{
+   width: 40%;
+   height: 50px;
+   border-radius: 20px;
+   font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+   font-size: 13.92px;
+   color: rgb(20, 23, 26);
+   border: 2px solid #E9F0F4;
+   background-color: white;
+}
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 10rem;
+    background-color: white;
+}
+.big-container{
+    width: 60%;
+    height: 80vh;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: 4rem;
+}
+.big-container-h1{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 72px;
+font-weight: 700;
+line-height: 72px;
+color: rgb(20, 23, 26);
+}
+.div-but{
+    margin-top: 3rem;
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+}
+.down{
+      width: 27.5%;
+   height: 50px;
+   border-radius: 30px;
+   font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 15.96px;
+font-weight: 700;
+line-height: 15.96px;
+background-color: #14171A;
+color: rgb(255, 255, 255);
+border: none;
+}
+
+.div-but2{
+    margin-top: 1rem;
+     width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+}
+.down2{
+      width: 32%;
+   height: 50px;
+   border-radius: 30px;
+   font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 15.96px;
+font-weight: 700;
+line-height: 15.96px;
+background-color: #14171A;
+color: rgb(255, 255, 255);
+border: none;
+}
+.big-container-p{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 19px;
+font-weight: 700;
+line-height: 28px;
+color: rgb(20, 23, 26);
+}
+.list-div{
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    margin-top: 2rem;
+}
+.list-div-p{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(20, 23, 26);
+}
+ul{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(20, 23, 26);
+margin-left: 1.5rem;
+line-height: 38px;
+}
+.x-app-div{
+     margin-top: 1rem;
+     /* width: 100%; */
+    height: 40vh;
+    /* background-color: red; */
+}
+.x-app{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+color: rgb(20, 23, 26);
+}
+.line{
+    width: 10%;
+    height: 8px;
+    background-color: blue;
+    margin-top: 2rem;
+}
+.downlo{
+      width: 27.5%;
+   height: 50px;
+   border-radius: 30px;
+   font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 15.96px;
+font-weight: 700;
+line-height: 15.96px;
+background-color: #14171A;
+color: rgb(255, 255, 255);
+border: none;
+ margin-top: 1.5rem;
+}
+.x-app-p{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(20, 23, 26);
+margin-top: 2rem;
+}
+.x-app-div2{
+     margin-top: 3rem;
+     /* width: 100%; */
+    height: 40vh;
+    /* background-color: red; */
+}
+.x-app2{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+color: rgb(20, 23, 26);
+}
+.line2{
+    width: 10%;
+    height: 8px;
+    background-color: blue;
+    margin-top: 2rem;
+}
+.download{
+      width: 27.5%;
+   height: 50px;
+   border-radius: 30px;
+   font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 15.96px;
+font-weight: 700;
+line-height: 15.96px;
+background-color: #14171A;
+color: rgb(255, 255, 255);
+border: none;
+ margin-top: 1.5rem;
+}
+.x-app-p2{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(20, 23, 26);
+margin-top: 2rem;
+}
+.lg-line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 2rem;
+}
+.faq-div{
+     margin-top: 3rem;
+     /* width: 100%; */
+    height: 40vh;
+    /* background-color: red; */
+}
+.faq{
+    font-family: sans-serif;
+font-size: 36px;
+font-weight: 750;
+line-height: 36px;
+color: rgb(20, 23, 26);
+}
+.line3{
+    width: 10%;
+    height: 8px;
+    background-color: blue;
+    margin-top: 2rem;
+}
+.faq-divp{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(0, 131, 235);
+margin-top: 2rem;
+}
+.faq-divpp{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(0, 131, 235);
+margin-top: 1rem;
+}
+.faq-divppp{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(0, 131, 235);
+margin-top: 1rem;
+}
+.small-div{
+    width: 50%;
+    height: 95vh;
+    /* background-color: green; */
+    margin: auto;
+}
+.what-h4{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+color: rgb(20, 23, 26);
+}
+.the-p{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 21px;
+font-weight: 400;
+line-height: 32px;
+color: rgb(15, 20, 25);
+/* margin-top: 30px; */
+}
+.how-h4{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 27px;
+font-weight: 650;
+line-height: 32px;
+color: rgb(20, 23, 26);
+margin-top: 30px;
+}
+.the-pp{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 32px;
+color: rgb(15, 20, 25);
+/* margin-top: 30px; */
+}
+.where-h4{
+       font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 27px;
+font-weight: 650;
+line-height: 32px;
+color: rgb(20, 23, 26); 
+margin-top: 30px;
+}
+.the-ppp{
+       font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+color: rgb(15, 20, 25);
+}
+.sm-line{
+    width: 95%;
+    height: 1px;
+    background-color: black;
+    margin-top: 4rem;
+    /* margin-bottom: 1rem; */
+}
+.div-butt3{
+    margin-top: 1rem;
+     width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+}
+.div-butt4{
+    margin-top: 1rem;
+     width: 100%;
+    height: 35vh;
+    /* background-color: red; */
+}
+.sma-line{
+    width: 95%;
+    height: 1px;
+    background-color: black;
+    margin-top: 6rem;
+    /* margin-bottom: 1rem; */
+}
+.share-h4{
+    font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+color: rgb(15, 20, 25);
+}
+.po{
+       width: 15%;
+   height: 50px;
+   border-radius: 30px;
+   font-family: "Helvetica Neue LT", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: rgb(20, 23, 26);
+border: none;
+margin-top: 30px;
+margin-bottom: 50px;
+}
