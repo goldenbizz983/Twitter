@@ -734,6 +734,15 @@ color: rgb(15, 20, 25);
   display: none;
 }
 
+.bottom-nav a {
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+}
+
+.bottom-nav a:hover i {
+    color: #1D9BF0;
+}
+
 
 
 /* ========== 1279px AND BELOW — Hide text labels, show icons only ========== */

@@ -696,6 +696,14 @@ list-style-type: square;
     display: none;
 }
 
+.bottom-nav a {
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+}
+
+.bottom-nav a:hover i {
+    color: #1D9BF0;
+}
 
 
 
