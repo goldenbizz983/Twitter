@@ -133,21 +133,39 @@ cursor: pointer;
 }
 nav{
     width:100%;
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
     /* background-color: red; */
 }
 
 .post1{
     height:auto;
-    border-bottom:1px solid #ddd;
+    /* border-bottom:1px solid #ddd; */
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
 }
 .post2{
-    height: 10vh;
-    /* border-bottom:1px solid #ddd; */
-    /* background-color: green; */
+    height: auto;
+    border-bottom:1px solid #ddd;
+   /* background-color: red; */
+   margin-top: 70px;
+   text-align: center;
+}
+.post2-div{
+    font-size: 70px;
+}
+.post2-h6{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+font-size: 23px;
+font-weight: 500;
+color: rgb(15, 20, 26);
+padding-top: 50px;
+}
+.post2-p{
+    color: rgb(82, 99, 111);
+    font-size: 15px;
+    padding-top: 10px;
 }
 .textarea{
     width: 95%;
